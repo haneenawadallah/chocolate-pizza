@@ -1,0 +1,80 @@
+hr { 
+   
+    height:15px;
+    background:url(img/hr-img.png);
+    border: none;
+    background-repeat:repeat;
+    margin-left: 0px;
+    width: 100%;
+
+    }
+    .hr1{
+        opacity: 0%;
+    }
+
+    .logo, .logoName, .nameDescrip {
+        float: left;
+        display: block;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+    }
+    .icons{
+        list-style: none;
+        text-align: right;
+        float: right;
+        display: inline-flex;
+
+    }
+    .nameDescrip{
+        float: left;
+        margin-top: 0px;
+        clear:both;
+        color: gray;
+    }
+    .title{
+        text-align: left;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-left: 0px;
+        column-gap: 0px;
+
+    }
+    .undertitle{
+        color: gray;
+
+    }
+    .print{
+        text-align: right;
+        color: gray;
+        
+    }
+    .choco{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .texts{
+        margin-left: 380px;
+    }
+    .all-lists{
+        position: relative;
+        text-align: center;
+        color: black;
+ 
+    }
+    .lists{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    button{
+        background-color: crimson;
+        float: right;
+       
+    }
+    footer{
+        text-align: center;
+        color: rgb(77, 80, 77);
+    }
